@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="en">
+	<head>
+		<meta charset="UTF-8" />
+		<meta http-equiv="X-UA-Compatible" content="IE=edge" />
+		<meta name="viewport" content="width=device-width, initial-scale=1.0" />
+		<title>To Do List</title>
+		<link rel="stylesheet" href="style.css" />
+	</head>
+	<body>
+		<div id="main">
+			<div id="title">
+				<h1>To Do List</h1>
+			</div>
+			<div id="whatToDo">
+				<h3>Add to your todo list!</h3>
+			</div>
+			<div id="searchbar">
+				<input type="search" name="search" id="searchbar1" />
+			</div>
+			<div id="buttons">
+				<div id="addButton">
+					<button id="addButton1">ADD</button>
+				</div>
+				<div id="removeButton">
+					<button id="removeButton1">REMOVE COMPLETED TASKS</button>
+				</div>
+				<div id="removeAllButton">
+					<button id="removeAllButton1">REMOVE ALL</button>
+				</div>
+			</div>
+			<div id="showDeleted">
+				<button id="showDeletedItems">Show Deleted Items</button>
+			</div>
+		</div>
+		<div id="list"></div>
+		<div id="listHidden">
+			<div id="button">
+				<button id="mainList">Main List</button>
+				<button id="selectedItems">Put back on list</button>
+			</div>
+			<div id="title">
+				<h2 id="deleted">Deleted Items</h2>
+			</div>
+			<div id="listHiddenItems"></div>
+		</div>
+		<script src="main.js"></script>
+	</body>
+</html>
