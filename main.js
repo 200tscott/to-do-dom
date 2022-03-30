@@ -32,9 +32,6 @@ removeButton.addEventListener("click", function () {
 	console.log("Remove has been clicked");
 	let removeItem = document.querySelectorAll(".completed");
 	for (let item of removeItem) {
-		console.log("I should be doing things!");
-		item.style.textDecoration = "none";
-		item.style.background = "plum";
 		item.classList.remove('completed');
 		hiddenListItems.appendChild(item);
 	}
@@ -45,15 +42,11 @@ removeAllButton.addEventListener("click", function () {
 		let removeAllItem = document.querySelectorAll(".listItem");
 	for (let item of removeAllItem) {
 		console.log("I should be doing things!");
-		// item.classList.add('completed');
-		item.style.textDecoration = "none";
-		item.style.background = "plum";
 		hiddenListItems.appendChild(item);
 	}
 });
 
 deletedItemsButton.addEventListener("click", function () {
-	console.log("Show Deleted has been clicked");
 	hiddenList.style.display = "flex";
 	item.style.display = "none";
 });
@@ -67,8 +60,6 @@ mainListButton.addEventListener("click", function () {
 selectedItems.addEventListener("click", function () {
 		let removeSelectedItem = document.querySelectorAll(".completed");
 	for (let item of removeSelectedItem) {
-		item.style.textDecoration = "none";
-		item.style.background = "plum";
 		item.classList.remove('completed');
 		newListItem.appendChild(item);
 	}

@@ -1,6 +1,4 @@
-body {
-	background-color: rgb(203, 127, 127);
-}
+
 #title {
 	display: flex;
 	justify-content: center;
@@ -44,14 +42,15 @@ h1 {
 	margin-left: 120px;
 	margin-top: 2px;
 	padding-bottom: 10px;
-	background-image: radial-gradient(rgb(253, 214, 253), plum);
+	background-image: radial-gradient(rgb(247, 247, 247), black);
 }
 
 
 #main {
 	border: 1px solid black;
 	border-radius: 30px;
-    background-color: rgb(126, 157, 249);
+    background-color: rgb(130, 158, 243);
+	background-image: radial-gradient(rgb(247, 247, 247), black);
 	margin-top: 30px;
 }
 
@@ -115,4 +114,121 @@ h1 {
 	padding-right: 40px;
 	font-family: 'Times New Roman', Times, serif;
 }
+#title {
+	display: flex;
+	justify-content: center;
+	align-items: center;
+}
 
+#searchbar {
+	display: flex;
+	justify-content: center;
+}
+
+#searchbar1 {
+	border-radius: 20px;
+	width: 400px;
+	height: 30px;
+	padding: 5px;
+	font-size: x-large;
+}
+
+h3 {
+	text-align: center;
+	margin-bottom: -3px;
+
+}
+
+h1 {
+	text-align: center;
+	text-decoration: underline;
+}
+
+#list {
+	position: absolute;
+	display: flex;
+	flex-direction: column;
+	justify-content: left;
+	border: 1px solid black;
+	border-radius: 30px;
+	height: 100vh;
+	width: 700px;
+	margin-left: 120px;
+	margin-top: 2px;
+	padding-bottom: 10px;
+	background-image: radial-gradient(rgb(255, 255, 255), rgb(2, 2, 2));
+}
+
+.listItem {
+	position: relative;
+	display: flex;
+	flex-direction: row;
+	border: 2px solid rgb(9, 9, 9);
+	box-shadow: 5px 5px;
+	border-radius: 30px;
+	font-size: x-large;
+	justify-content: center;
+	text-align: center;
+	align-items: center;
+	margin-left: 25px;
+	margin-top: 10px;
+	height: 50px;
+	width: 650px;
+	background-image: radial-gradient(rgb(252, 252, 252), rgb(9, 9, 9));
+}
+#list{
+position: absolute;
+	display: flex;
+	flex-direction: column;
+	justify-content: left;
+	border: 1px solid black;
+	border-radius: 30px;
+	height: 100vh;
+	width: 70vw;
+	margin-left: 120px;
+	margin-top: 2px;
+	padding-bottom: 10px;
+	background-image: radial-gradient(rgb(255, 255, 255), rgb(6, 6, 6));
+}
+
+#listHidden {
+	position: absolute;
+	display: none;
+	flex-direction: column;
+	justify-content: left;
+	border: 1px solid black;
+	border-radius: 30px;
+	height: 100vh;
+	width: 70vw;
+	margin-left: 120px;
+	margin-top: 2px;
+	padding-bottom: 10px;
+	background-image: radial-gradient(rgb(255, 255, 255), rgb(9, 9, 9));
+}
+
+.listItemHidden {
+	position: relative;
+	display: flex;
+	flex-direction: row;
+	border: 2px solid rgb(0, 0, 0);
+	box-shadow: 5px 5px;
+	border-radius: 30px;
+	font-size: x-large;
+	justify-content: center;
+	text-align: center;
+	align-items: center;
+	margin-left: 25px;
+	margin-top: 10px;
+	height: 50px;
+	width: 650px;
+	background-image: radial-gradient(rgb(251, 245, 251), rgb(0, 0, 0));
+}
+
+h2 {
+	text-align: center;
+	margin-bottom: -3px;
+	border: 1px solid black;
+	background-color: gold;
+	border-radius: 20px;
+	width: 250px;
+}
